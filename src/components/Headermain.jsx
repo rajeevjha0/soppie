@@ -3,7 +3,7 @@ import { BsSearch } from "react-icons/bs";
 import { FiHeart } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 
-export default function (){
+export default function Headermain(){
     return(
         <div className="boredr-b border-gray-200 py-6">
             <div className="container sm:flex justify-between items-center">

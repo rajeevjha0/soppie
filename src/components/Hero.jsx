@@ -4,7 +4,7 @@ import Slider from "react-slick"
 import Slides from "@/components/Slides"
 
 
-export default function (){
+export default function Hero(){
     var settings = {
         dots : true,
         infinite : true,

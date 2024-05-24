@@ -1,10 +1,10 @@
 import React from "react";
-
+import Image from "next/image";
 const ProductCard = ({ img, title, desc, rating, price }) => {
     return (
         <div className="px-5 border border-gray-200 rounded-xl max-w-[80%] items-center hover:border-[#000]">
             <div>
-                <img className="w-full h-auto" src={img} alt={title} />
+                <Image className="w-full h-auto" src={img} alt={title} width={400} height={400} />
                 <h3 className="text-lg font-semibold text-blue-600">{title}</h3> {/* Changed text color to blue */}
                 <p className="text-sm text-gray-500 mb-2">{desc}</p>
                 <div className="flex items-center mb-2">

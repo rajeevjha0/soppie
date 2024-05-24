@@ -1,7 +1,7 @@
 import React from "react"
 import {FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 
-export default function (){
+export default function Headertop(){
     return(
         <div className="border-b border-gray-200 hidden sm:block">
            <div className="container py-4">
