@@ -14,7 +14,7 @@ export default function Document() {
         <Headermain/>
         <Navbar/>
         <Main />
-
+      <footer>footer</footer>
         <NextScript />
       </body>
     </Html>
