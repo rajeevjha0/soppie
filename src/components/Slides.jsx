@@ -23,6 +23,7 @@ const Slides = ({ img, title, mainTitle, price }) => {
                 alt="banner"
                 width={1900}
                 height={1000}
+                priority={true}
             />
         </div>
     );
