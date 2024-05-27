@@ -31,5 +31,55 @@
 .navbar_link:hover::after{
   transform: scaleX(1);
 }
-
+.col-xl-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.pos-rel {
+  position: relative;
+}
+.category-banner-single {
+  overflow: hidden;
+}
+.category-banner-img img {
+  object-fit: cover;
+  width: 100%;
+  transition: .6s;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-.5* var(--bs-gutter-x));
+  margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.category-banner-inner {
+  padding: 30px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.category-banner-content .product-category {
+  font-size: 28px;
+  display: inline-block;
+  color: var(--clr-common-heading);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.category-banner-content .category-short-desc {
+  color: var(--clr-common-heading);
+  margin-bottom: 23px;
+}
+.category-banner-content .border-btn {
+  font-size: 14px;
+  height: 35px;
+  line-height: 33px;
+  /* padding: 0 20px; */
+  font-weight: 500;
+}
 }
