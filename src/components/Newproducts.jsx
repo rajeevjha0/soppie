@@ -63,7 +63,7 @@ export default function ProductList() { // Added a function name "ProductList"
     ];
 
     return (
-        <div className="container py-16">
+        <div className="container pb-[80px]">
             <h2 className="font-medium text-5xl	text-center pb-4">New Products</h2>
             <p className="text-center mb-[25px]">Find your style. Fall fashion 20xx</p>
             <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 xl:gap-x-0 xl:gap-y-10">

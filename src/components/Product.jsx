@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Product (){
     return(
         <div>
-     <div className="category-banner-area pt-16">
+     <div className="category-banner-area py-20 px-[30px]">
       <div className="container mx-auto">
         <div className="flex flex-wrap">
           <div className="col-xl-4 col-lg-6 col-md-6 mb-30 pr-[15px]">
