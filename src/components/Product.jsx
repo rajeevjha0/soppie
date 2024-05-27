@@ -8,7 +8,7 @@ export default function Product (){
      <div className="category-banner-area pt-16">
       <div className="container mx-auto">
         <div className="flex flex-wrap">
-          <div className="col-xl-4 col-lg-6 col-md-6 mb-30">
+          <div className="col-xl-4 col-lg-6 col-md-6 mb-30 pr-[15px]">
             <div className="category-banner-single relative">
               <div className="category-banner-img">
                 <Image
@@ -35,10 +35,10 @@ export default function Product (){
             </div>
           </div>
 
-          <div className="col-xl-4 order-xl-2 mb-30">
+          <div className="col-xl-4 order-xl-2 mb-30 pr-[15px]">
             <div className="flex flex-wrap">
               <div className="col-xl-12 col-lg-6 col-md-6 mb-30">
-                <div className="category-banner-single relative">
+                <div className="category-banner-single relative mb-[23px]">
                   <div className="category-banner-img">
                     <Image
                       alt="banner-img"
@@ -63,7 +63,7 @@ export default function Product (){
                   </div>
                 </div>
               </div>
-              <div className="col-xl-12 col-lg-6 col-md-6 mb-30">
+              <div className="col-xl-12 col-lg-6 col-md-6">
                 <div className="category-banner-single relative">
                   <div className="category-banner-img">
                     <Image
@@ -92,7 +92,7 @@ export default function Product (){
             </div>
           </div>
 
-          <div className="col-xl-4 col-lg-6 col-md-6 order-xl-3 mb-30">
+          <div className="col-xl-4 col-lg-6 col-md-6 order-xl-3 mb-30 pr-[15px]">
             <div className="category-banner-single relative">
               <div className="category-banner-img">
                 <Image

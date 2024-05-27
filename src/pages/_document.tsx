@@ -5,6 +5,8 @@ import Headertop from "@/components/Headertop"
 import Headermain from "@/components/Headermain"
 import Navbar from "@/components/Navbar"
 import Link from "next/link";
+import Footer from "@/components/Footer"
+
 export default function Document() {
   return (
     <Html lang="en">
@@ -14,7 +16,7 @@ export default function Document() {
         <Headermain/>
         <Navbar/>
         <Main />
-      <footer>footer</footer>
+        <Footer/>
         <NextScript />
       </body>
     </Html>
